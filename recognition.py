@@ -6,7 +6,7 @@ import time
 
 # Check command-line arguments
 if len(sys.argv) != 2:
-    sys.exit("Usage: python recognition.py model")
+    sys.exit("Usage: python recognition.py model.h5")
 model = tf.keras.models.load_model(sys.argv[1])
 
 # Colors
